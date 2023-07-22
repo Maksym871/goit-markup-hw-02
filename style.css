@@ -1,0 +1,139 @@
+body {
+  color: rgba(46, 47, 66, 1);
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --brand-color: rgba(67, 68, 85, 1);
+}
+.logo-web {
+  color: rgba(77, 90, 229, 1);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 116.667%;
+}
+.logo-web:hover,
+.logo-web:focus {
+  color: blue;
+}
+.logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 116.667%;
+}
+.logo-studio-footer {
+  color: rgba(244, 244, 253, 1);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 116.667%;
+}
+.logo-studio-footer:hover,
+.logo-studio-footer:focus {
+  color: blue;
+}
+.logo-studio:hover,
+.logo-studio:focus {
+  color: blue;
+  cursor: pointer;
+}
+.studio-portfolio-contacts {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.studio-portfolio-contacts:hover,
+.studio-portfolio-contacts:focus {
+  color: blue;
+}
+.contacts {
+  color: var(--brand-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.contacts:hover,
+.contacts:focus {
+  color: blue;
+}
+
+h1 {
+  color: white;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107.143%;
+}
+h2 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 111.111%;
+}
+h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+.button-order-service {
+  color: white;
+  background: rgba(77, 90, 229, 1);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.button-order-service:hover,
+.button-order-service:focus {
+  color: rgba(64, 75, 191, 1);
+}
+.description {
+  color: var(--brand-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.main-heading {
+  background: rgba(46, 47, 66, 1);
+}
+footer {
+  background: rgba(46, 47, 66, 1);
+}
+.footer-description {
+  color: rgba(244, 244, 253, 1);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+button {
+  cursor: pointer;
+}
+.card tittle {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+.card-describtion {
+  color: var(--brand-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.service-buttons {
+  color: rgba(77, 90, 229, 1);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
