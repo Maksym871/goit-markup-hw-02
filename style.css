@@ -1,139 +1,134 @@
 body {
-  color: rgba(46, 47, 66, 1);
+  color: #2e2f42;
   font-family: "Roboto", sans-serif;
 }
 :root {
-  --brand-color: rgba(67, 68, 85, 1);
+  --brand-color: #434455;
 }
 .logo-web {
-  color: rgba(77, 90, 229, 1);
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 116.667%;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.54px;
 }
-.logo-web:hover,
-.logo-web:focus {
-  color: blue;
-}
+
 .logo-studio {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 116.667%;
+  color: #2e2f42;
+  letter-spacing: 0.54px;
 }
 .logo-studio-footer {
-  color: rgba(244, 244, 253, 1);
+  color: #f4f4fd;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 116.667%;
-}
-.logo-studio-footer:hover,
-.logo-studio-footer:focus {
-  color: blue;
-}
-.logo-studio:hover,
-.logo-studio:focus {
-  color: blue;
-  cursor: pointer;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
 }
 .studio-portfolio-contacts {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
+  color: #2e2f42;
+  letter-spacing: 0.32px;
 }
 .studio-portfolio-contacts:hover,
 .studio-portfolio-contacts:focus {
-  color: blue;
+  color: #404bbf;
 }
 .contacts {
   color: var(--brand-color);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
+
 .contacts:hover,
 .contacts:focus {
-  color: blue;
+  color: #404bbf;
 }
 
 h1 {
-  color: white;
+  color: #ffffff;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 107.143%;
+  line-height: 10.7;
+  letter-spacing: 1.12px;
 }
-h2 {
+.second-header {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 111.111%;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  color: #2e2f42;
 }
-h3 {
+.third-header > h3 {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: #2e2f42;
 }
 .button-order-service {
-  color: white;
-  background: rgba(77, 90, 229, 1);
+  color: #ffffff;
+  background-color: #4d5ae5;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  font-family: inherit;
 }
 .button-order-service:hover,
 .button-order-service:focus {
-  color: rgba(64, 75, 191, 1);
+  background-color: #404bbf;
 }
 .description {
   color: var(--brand-color);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 .main-heading {
-  background: rgba(46, 47, 66, 1);
+  background: #2e2f42;
 }
 footer {
-  background: rgba(46, 47, 66, 1);
+  background: #2e2f42;
 }
 .footer-description {
-  color: rgba(244, 244, 253, 1);
+  color: #f4f4fd;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 button {
   cursor: pointer;
 }
-.card tittle {
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 120%;
-}
-.card-describtion {
-  color: var(--brand-color);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%;
-}
 .service-buttons {
-  color: rgba(77, 90, 229, 1);
+  color: #4d5ae5;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
 }
