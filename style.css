@@ -18,16 +18,9 @@ body {
 
 .logo-studio {
   color: #2e2f42;
-  letter-spacing: 0.54px;
 }
 .logo-studio-footer {
   color: #f4f4fd;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
 }
 .studio-portfolio-contacts {
   font-size: 16px;
@@ -55,12 +48,12 @@ body {
   color: #404bbf;
 }
 
-h1 {
+.main-title {
   color: #ffffff;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 10.7;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 .second-header {
@@ -71,7 +64,7 @@ h1 {
   letter-spacing: 0.72px;
   color: #2e2f42;
 }
-.third-header > h3 {
+.third-header {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -104,7 +97,7 @@ h1 {
 .main-heading {
   background: #2e2f42;
 }
-footer {
+.footer-background {
   background: #2e2f42;
 }
 .footer-description {
@@ -118,7 +111,7 @@ footer {
 button {
   cursor: pointer;
 }
-.service-buttons {
+.service button {
   color: #4d5ae5;
   font-size: 16px;
   font-style: normal;
@@ -126,9 +119,18 @@ button {
   line-height: 1.5;
   letter-spacing: 0.64px;
 }
+.service button:hover,
+.service button:focus {
+  background-color: #404bbf;
+  color: white;
+}
+
 a {
   text-decoration: none;
 }
 li {
   list-style: none;
+}
+.our-team {
+  background: var(--cloud, #f4f4fd);
 }
