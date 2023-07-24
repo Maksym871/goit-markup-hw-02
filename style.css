@@ -118,6 +118,8 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
+  background-color: #f4f4fd;
+  font-family: "Roboto", sans-serif;
 }
 .service button:hover,
 .service button:focus {
